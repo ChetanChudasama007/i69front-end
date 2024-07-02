@@ -1,0 +1,150 @@
+@media (max-width: 1700px) {
+  .sabout_info ul li {
+    font-size: 12px;
+  }
+
+  .sabout_info ul li .btn_shap {
+    font-size: 12px;
+  }
+
+  .sabout_info ul li span:first-child {
+    min-width: 60px;
+  }
+
+  .btn_shap {
+    height: 42px;
+    padding: 0 20px;
+    font-size: 15px;
+  }
+
+  .sendgift_modal .grid .column figure > img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .sendgift_modal .tab_pane {
+    height: calc(100vh - 265px);
+  }
+
+  .sendgift_modal .grid .column h4 {
+    font-size: 16px;
+  }
+
+  .sendgift_modal .grid .column span {
+    font-size: 15px;
+  }
+
+  .sendgift_modal .nav_tabs li a {
+    padding: 10px 5px 8px;
+    font-size: 16px;
+  }
+
+  .sendgift_modal .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1579px) {
+  .search-tab .nav-item .nav-link::after {
+    width: calc(100% + 24px);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 24px 50%);
+  }
+
+  .search-tab .nav-item + .nav-item .nav-link::before {
+    width: 24px;
+    left: -22px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .list_grid .search-items-wrapper .dtl .name::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .list_grid .search-items-wrapper .dtl .name .user-name-label {
+    width: 40px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1439px) {
+  .list_grid .search-items-wrapper .dtl .name::before {
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+  }
+
+  .list_grid .search-items-wrapper .dtl .name .user-name-label {
+    width: 60px;
+  }
+}
+
+@media (min-width: 1140px) and (max-width: 2560px) {
+  .list_grid .search-items-wrapper .dtl .name::before {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+  }
+
+  .list_grid .search-items-wrapper .dtl .name .user-name-label {
+    width: 120px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .login-footer-text {
+    width: 100%;
+    min-width: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(233, 233, 233);
+    padding: 5px 5px;
+    background: #1f243066;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .login-box {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .login-box h1 {
+    font-size: 20px;
+  }
+
+  .login-box p {
+    font-size: 14px;
+  }
+
+  .login-box input,
+  .login-box button,
+  .apple-signin {
+    padding: 8px;
+  }
+
+  .apple-signin img {
+    width: 18px;
+  }
+
+  footer nav {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .separator::before,
+  .separator::after {
+    width: 35%;
+  }
+}
